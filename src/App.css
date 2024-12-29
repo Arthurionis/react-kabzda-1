@@ -4,22 +4,8 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   grid-template-areas:
-    "h h h"
-    "n c c";
+    "h h"
+    "n c";
   width: 1200px;
- 
-}
-
-.header {
-  grid-area: h;
-}
-.header img{
-  width: 20px;
-}
-.nav {
-  grid-area: n;
-}
-
-.content {
-  grid-area: c;
+  margin: 0 auto;
 }
